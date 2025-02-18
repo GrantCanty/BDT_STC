@@ -1,0 +1,6 @@
+FROM python:3.9
+WORKDIR /app
+COPY visualization.py .
+COPY requirements_visual.txt .
+RUN pip install -r requirements_visual.txt
+CMD ["sh", "-c", "sleep 75 && exec python visualization.py"]

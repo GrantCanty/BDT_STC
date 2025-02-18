@@ -1,0 +1,786 @@
+{
+    "nodes": [
+        {
+            "longitude": -73.8115234375,
+            "latitude": 40.665435791015625,
+            "borough": 4,
+            "cd_number": 10,
+            "point_type": "garage",
+            "waste_amt": 0.0,
+            "pickup": "false",
+            "id": 200
+        },
+        {
+            "longitude": -73.88949584960938,
+            "latitude": 40.841880798339844,
+            "borough": 2,
+            "cd_number": 6,
+            "point_type": "garage",
+            "waste_amt": 0.0,
+            "pickup": "false",
+            "id": 201
+        },
+        {
+            "longitude": -73.9329833984375,
+            "latitude": 40.80454635620117,
+            "borough": 1,
+            "cd_number": 11,
+            "point_type": "garage",
+            "waste_amt": 0.0,
+            "pickup": "false",
+            "id": 202
+        },
+        {
+            "longitude": -73.7335433959961,
+            "latitude": 40.74365997314453,
+            "borough": 4,
+            "cd_number": 11,
+            "point_type": "garage",
+            "waste_amt": 0.0,
+            "pickup": "false",
+            "id": 203
+        },
+        {
+            "longitude": -73.7348861694336,
+            "latitude": 40.7429313659668,
+            "borough": 4,
+            "cd_number": 11,
+            "point_type": "garage",
+            "waste_amt": 0.0,
+            "pickup": "false",
+            "id": 204
+        },
+        {
+            "longitude": -74.07750701904297,
+            "latitude": 40.63441848754883,
+            "borough": 5,
+            "cd_number": 1,
+            "point_type": "garage",
+            "waste_amt": 0.0,
+            "pickup": "false",
+            "id": 205
+        },
+        {
+            "longitude": -74.19654846191406,
+            "latitude": 40.575347900390625,
+            "borough": 5,
+            "cd_number": 3,
+            "point_type": "garage",
+            "waste_amt": 0.0,
+            "pickup": "false",
+            "id": 206
+        },
+        {
+            "longitude": -73.80992889404297,
+            "latitude": 40.66512680053711,
+            "borough": 4,
+            "cd_number": 10,
+            "point_type": "garage",
+            "waste_amt": 0.0,
+            "pickup": "false",
+            "id": 207
+        },
+        {
+            "longitude": -73.91927337646484,
+            "latitude": 40.64251708984375,
+            "borough": 3,
+            "cd_number": 18,
+            "point_type": "garage",
+            "waste_amt": 0.0,
+            "pickup": "false",
+            "id": 208
+        },
+        {
+            "longitude": -73.90690612792969,
+            "latitude": 40.73382568359375,
+            "borough": 4,
+            "cd_number": 2,
+            "point_type": "garage",
+            "waste_amt": 0.0,
+            "pickup": "false",
+            "id": 209
+        },
+        {
+            "longitude": -73.92887878417969,
+            "latitude": 40.81925582885742,
+            "borough": 2,
+            "cd_number": 4,
+            "point_type": "garage",
+            "waste_amt": 0.0,
+            "pickup": "false",
+            "id": 210
+        },
+        {
+            "longitude": -73.98680877685547,
+            "latitude": 40.70957946777344,
+            "borough": 1,
+            "cd_number": 3,
+            "point_type": "garage",
+            "waste_amt": 0.0,
+            "pickup": "false",
+            "id": 211
+        },
+        {
+            "longitude": -73.98694723814917,
+            "latitude": 40.77293448710492,
+            "borough": 1,
+            "cd_number": 2,
+            "point_type": "waste_bin",
+            "waste_amt": 318.74643961588544,
+            "pickup": "true",
+            "id": 61
+        },
+        {
+            "longitude": -73.99667552225607,
+            "latitude": 40.760132581377796,
+            "borough": 1,
+            "cd_number": 4,
+            "point_type": "waste_bin",
+            "waste_amt": 381.0725911458333,
+            "pickup": "true",
+            "id": 68
+        },
+        {
+            "longitude": -73.91811708798261,
+            "latitude": 40.85800335371991,
+            "borough": 1,
+            "cd_number": 12,
+            "point_type": "waste_bin",
+            "waste_amt": 322.38270786830356,
+            "pickup": "true",
+            "id": 80
+        },
+        {
+            "longitude": -73.89639163322741,
+            "latitude": 40.846090363106654,
+            "borough": 2,
+            "cd_number": 6,
+            "point_type": "waste_bin",
+            "waste_amt": 344.3775634765625,
+            "pickup": "true",
+            "id": 47
+        },
+        {
+            "longitude": -73.90895719650335,
+            "latitude": 40.8682115912047,
+            "borough": 2,
+            "cd_number": 6,
+            "point_type": "waste_bin",
+            "waste_amt": 344.3775634765625,
+            "pickup": "true",
+            "id": 48
+        },
+        {
+            "longitude": -73.97682943931798,
+            "latitude": 40.67844967369154,
+            "borough": 3,
+            "cd_number": 1,
+            "point_type": "waste_bin",
+            "waste_amt": 383.3052455357143,
+            "pickup": "true",
+            "id": 6
+        },
+        {
+            "longitude": -73.99977262717384,
+            "latitude": 40.691909852225294,
+            "borough": 3,
+            "cd_number": 1,
+            "point_type": "waste_bin",
+            "waste_amt": 383.3052455357143,
+            "pickup": "true",
+            "id": 7
+        },
+        {
+            "longitude": -74.00646435361917,
+            "latitude": 40.710244911313524,
+            "borough": 3,
+            "cd_number": 1,
+            "point_type": "waste_bin",
+            "waste_amt": 383.3052455357143,
+            "pickup": "true",
+            "id": 12
+        },
+        {
+            "longitude": -73.96247889878661,
+            "latitude": 40.68981239021216,
+            "borough": 3,
+            "cd_number": 2,
+            "point_type": "waste_bin",
+            "waste_amt": 295.8331604003906,
+            "pickup": "false",
+            "id": 2
+        },
+        {
+            "longitude": -73.91638676705337,
+            "latitude": 40.6940572692021,
+            "borough": 3,
+            "cd_number": 4,
+            "point_type": "waste_bin",
+            "waste_amt": 272.2015380859375,
+            "pickup": "false",
+            "id": 20
+        },
+        {
+            "longitude": -73.88485631662692,
+            "latitude": 40.65193859481859,
+            "borough": 3,
+            "cd_number": 5,
+            "point_type": "waste_bin",
+            "waste_amt": 353.4231770833333,
+            "pickup": "true",
+            "id": 25
+        },
+        {
+            "longitude": -73.89787475691301,
+            "latitude": 40.65420802756826,
+            "borough": 3,
+            "cd_number": 5,
+            "point_type": "waste_bin",
+            "waste_amt": 353.4231770833333,
+            "pickup": "true",
+            "id": 28
+        },
+        {
+            "longitude": -73.99093495235476,
+            "latitude": 40.68639672781493,
+            "borough": 3,
+            "cd_number": 6,
+            "point_type": "waste_bin",
+            "waste_amt": 241.86196899414062,
+            "pickup": "false",
+            "id": 29
+        },
+        {
+            "longitude": -73.91990887677136,
+            "latitude": 40.67234473632041,
+            "borough": 3,
+            "cd_number": 8,
+            "point_type": "waste_bin",
+            "waste_amt": 299.486572265625,
+            "pickup": "false",
+            "id": 40
+        },
+        {
+            "longitude": -73.95881207241057,
+            "latitude": 40.64802130080966,
+            "borough": 3,
+            "cd_number": 9,
+            "point_type": "waste_bin",
+            "waste_amt": 362.1917419433594,
+            "pickup": "true",
+            "id": 41
+        },
+        {
+            "longitude": -73.81559714935591,
+            "latitude": 40.760436370180116,
+            "borough": 4,
+            "cd_number": 7,
+            "point_type": "waste_bin",
+            "waste_amt": 321.69140625,
+            "pickup": "true",
+            "id": 82
+        },
+        {
+            "longitude": -73.76410535562047,
+            "latitude": 40.60643630942066,
+            "borough": 4,
+            "cd_number": 14,
+            "point_type": "waste_bin",
+            "waste_amt": 341.0713806152344,
+            "pickup": "true",
+            "id": 91
+        },
+        {
+            "longitude": -73.75113798478247,
+            "latitude": 40.59823135314658,
+            "borough": 4,
+            "cd_number": 14,
+            "point_type": "waste_bin",
+            "waste_amt": 341.0713806152344,
+            "pickup": "true",
+            "id": 93
+        },
+        {
+            "longitude": -74.09883089196784,
+            "latitude": 40.63372032452173,
+            "borough": 5,
+            "cd_number": 1,
+            "point_type": "waste_bin",
+            "waste_amt": 310.4188755580357,
+            "pickup": "true",
+            "id": 105
+        },
+        {
+            "longitude": -74.09000234297184,
+            "latitude": 40.64314899591741,
+            "borough": 5,
+            "cd_number": 1,
+            "point_type": "waste_bin",
+            "waste_amt": 310.4188755580357,
+            "pickup": "true",
+            "id": 108
+        }
+    ],
+    "links": [
+        {
+            "weight": 10.56917553703637,
+            "source": 200,
+            "target": 82
+        },
+        {
+            "weight": 7.6843558496484246,
+            "source": 200,
+            "target": 91
+        },
+        {
+            "weight": 9.04485607446776,
+            "source": 200,
+            "target": 93
+        },
+        {
+            "weight": 0.7453678482495424,
+            "source": 201,
+            "target": 47
+        },
+        {
+            "weight": 3.3543091522102424,
+            "source": 201,
+            "target": 48
+        },
+        {
+            "weight": 5.744200622565327,
+            "source": 202,
+            "target": 61
+        },
+        {
+            "weight": 7.290251448424247,
+            "source": 202,
+            "target": 68
+        },
+        {
+            "weight": 6.0743232276232195,
+            "source": 202,
+            "target": 80
+        },
+        {
+            "weight": 7.159102716037844,
+            "source": 203,
+            "target": 82
+        },
+        {
+            "weight": 15.474739071751875,
+            "source": 203,
+            "target": 91
+        },
+        {
+            "weight": 16.238886643678267,
+            "source": 203,
+            "target": 93
+        },
+        {
+            "weight": 7.071868321939194,
+            "source": 204,
+            "target": 82
+        },
+        {
+            "weight": 15.376308353974215,
+            "source": 204,
+            "target": 91
+        },
+        {
+            "weight": 16.14820422956934,
+            "source": 204,
+            "target": 93
+        },
+        {
+            "weight": 1.801071632890524,
+            "source": 205,
+            "target": 105
+        },
+        {
+            "weight": 1.4331961444006385,
+            "source": 205,
+            "target": 108
+        },
+        {
+            "weight": 10.496817055536365,
+            "source": 206,
+            "target": 105
+        },
+        {
+            "weight": 11.735989141919907,
+            "source": 206,
+            "target": 108
+        },
+        {
+            "weight": 10.608717980187556,
+            "source": 207,
+            "target": 82
+        },
+        {
+            "weight": 7.585587274703592,
+            "source": 207,
+            "target": 91
+        },
+        {
+            "weight": 8.941138795503521,
+            "source": 207,
+            "target": 93
+        },
+        {
+            "weight": 6.287629243865669,
+            "source": 208,
+            "target": 6
+        },
+        {
+            "weight": 8.732799602029077,
+            "source": 208,
+            "target": 7
+        },
+        {
+            "weight": 10.525242120564386,
+            "source": 208,
+            "target": 12
+        },
+        {
+            "weight": 6.398176673281612,
+            "source": 208,
+            "target": 2
+        },
+        {
+            "weight": 5.736183246732434,
+            "source": 208,
+            "target": 20
+        },
+        {
+            "weight": 3.086890767806647,
+            "source": 208,
+            "target": 25
+        },
+        {
+            "weight": 2.224659408708175,
+            "source": 208,
+            "target": 28
+        },
+        {
+            "weight": 7.767931708144545,
+            "source": 208,
+            "target": 29
+        },
+        {
+            "weight": 3.317120741425112,
+            "source": 208,
+            "target": 40
+        },
+        {
+            "weight": 3.391562623090162,
+            "source": 208,
+            "target": 41
+        },
+        {
+            "weight": 8.241478617542347,
+            "source": 209,
+            "target": 82
+        },
+        {
+            "weight": 18.59294861480956,
+            "source": 209,
+            "target": 91
+        },
+        {
+            "weight": 19.99843433554407,
+            "source": 209,
+            "target": 93
+        },
+        {
+            "weight": 4.04648252510001,
+            "source": 210,
+            "target": 47
+        },
+        {
+            "weight": 5.695739046749366,
+            "source": 210,
+            "target": 48
+        },
+        {
+            "weight": 7.044776115708756,
+            "source": 211,
+            "target": 61
+        },
+        {
+            "weight": 5.682399220100504,
+            "source": 211,
+            "target": 68
+        },
+        {
+            "weight": 17.488016656469384,
+            "source": 211,
+            "target": 80
+        },
+        {
+            "weight": 1.642437682998168,
+            "source": 61,
+            "target": 68
+        },
+        {
+            "weight": 11.091830712082528,
+            "source": 61,
+            "target": 80
+        },
+        {
+            "weight": 12.733755994151734,
+            "source": 68,
+            "target": 80
+        },
+        {
+            "weight": 2.6771756733135743,
+            "source": 47,
+            "target": 48
+        },
+        {
+            "weight": 2.4459452674195847,
+            "source": 6,
+            "target": 7
+        },
+        {
+            "weight": 4.329188640672066,
+            "source": 6,
+            "target": 12
+        },
+        {
+            "weight": 1.7494567319992822,
+            "source": 6,
+            "target": 2
+        },
+        {
+            "weight": 5.383807921730636,
+            "source": 6,
+            "target": 20
+        },
+        {
+            "weight": 8.298691196260153,
+            "source": 6,
+            "target": 25
+        },
+        {
+            "weight": 7.184174400395237,
+            "source": 6,
+            "target": 28
+        },
+        {
+            "weight": 1.4817550849453565,
+            "source": 6,
+            "target": 29
+        },
+        {
+            "weight": 4.84798367016054,
+            "source": 6,
+            "target": 40
+        },
+        {
+            "weight": 3.7091119550954947,
+            "source": 6,
+            "target": 41
+        },
+        {
+            "weight": 2.1153711751816675,
+            "source": 7,
+            "target": 12
+        },
+        {
+            "weight": 3.1529605693645864,
+            "source": 7,
+            "target": 2
+        },
+        {
+            "weight": 7.0342894809572325,
+            "source": 7,
+            "target": 20
+        },
+        {
+            "weight": 10.662176218598342,
+            "source": 7,
+            "target": 25
+        },
+        {
+            "weight": 9.561591908230131,
+            "source": 7,
+            "target": 28
+        },
+        {
+            "weight": 0.964908719692204,
+            "source": 7,
+            "target": 29
+        },
+        {
+            "weight": 7.077070616595037,
+            "source": 7,
+            "target": 40
+        },
+        {
+            "weight": 5.979153501580769,
+            "source": 7,
+            "target": 41
+        },
+        {
+            "weight": 4.34871085841268,
+            "source": 12,
+            "target": 2
+        },
+        {
+            "weight": 7.803792897256154,
+            "source": 12,
+            "target": 20
+        },
+        {
+            "weight": 12.132197684994377,
+            "source": 12,
+            "target": 25
+        },
+        {
+            "weight": 11.075629799985101,
+            "source": 12,
+            "target": 28
+        },
+        {
+            "weight": 2.9573609048444376,
+            "source": 12,
+            "target": 29
+        },
+        {
+            "weight": 8.42710632888139,
+            "source": 12,
+            "target": 40
+        },
+        {
+            "weight": 8.001212581380269,
+            "source": 12,
+            "target": 41
+        },
+        {
+            "weight": 3.914634953826832,
+            "source": 2,
+            "target": 20
+        },
+        {
+            "weight": 7.784115884097424,
+            "source": 2,
+            "target": 25
+        },
+        {
+            "weight": 6.734963247628919,
+            "source": 2,
+            "target": 28
+        },
+        {
+            "weight": 2.429171891504397,
+            "source": 2,
+            "target": 29
+        },
+        {
+            "weight": 4.0814933310148875,
+            "source": 2,
+            "target": 40
+        },
+        {
+            "weight": 4.657242988524118,
+            "source": 2,
+            "target": 41
+        },
+        {
+            "weight": 5.385633867868395,
+            "source": 20,
+            "target": 25
+        },
+        {
+            "weight": 4.698021392600805,
+            "source": 20,
+            "target": 28
+        },
+        {
+            "weight": 6.342851551330745,
+            "source": 20,
+            "target": 29
+        },
+        {
+            "weight": 2.432525036943081,
+            "source": 20,
+            "target": 40
+        },
+        {
+            "weight": 6.245499880174183,
+            "source": 20,
+            "target": 41
+        },
+        {
+            "weight": 1.1268569894219895,
+            "source": 25,
+            "target": 28
+        },
+        {
+            "weight": 9.732601964373071,
+            "source": 25,
+            "target": 29
+        },
+        {
+            "weight": 3.7269762817628003,
+            "source": 25,
+            "target": 40
+        },
+        {
+            "weight": 6.254395438502464,
+            "source": 25,
+            "target": 41
+        },
+        {
+            "weight": 8.626153170251916,
+            "source": 28,
+            "target": 29
+        },
+        {
+            "weight": 2.7424840315461325,
+            "source": 28,
+            "target": 40
+        },
+        {
+            "weight": 5.186657494977262,
+            "source": 28,
+            "target": 41
+        },
+        {
+            "weight": 6.1898681915971085,
+            "source": 29,
+            "target": 40
+        },
+        {
+            "weight": 5.054606094266196,
+            "source": 29,
+            "target": 41
+        },
+        {
+            "weight": 4.25247608893695,
+            "source": 40,
+            "target": 41
+        },
+        {
+            "weight": 17.665925800841883,
+            "source": 82,
+            "target": 91
+        },
+        {
+            "weight": 18.837672214911226,
+            "source": 82,
+            "target": 93
+        },
+        {
+            "weight": 1.4250914462035782,
+            "source": 91,
+            "target": 93
+        },
+        {
+            "weight": 1.2861282530653182,
+            "source": 105,
+            "target": 108
+        }
+    ]
+}

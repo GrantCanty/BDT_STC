@@ -1,0 +1,8 @@
+FROM python:3.9
+COPY requirements_ml.txt .
+RUN pip install -r requirements_ml.txt
+COPY slopes_with_geo_id.csv .
+COPY exported_database.db .
+COPY prediction.py .
+RUN pip install -r requirements_ml.txt
+CMD ["sh", "-c", "sleep 30 && exec python prediction.py"]

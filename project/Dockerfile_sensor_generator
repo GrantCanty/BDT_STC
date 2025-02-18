@@ -1,0 +1,9 @@
+FROM python:3.9
+WORKDIR /app
+COPY my_database.db /app/my_database.db
+COPY exported_database.db .
+COPY sensor_generator.py .
+COPY new_database.db .
+COPY requirements.txt .
+RUN pip install -r requirements.txt
+CMD ["sh", "-c", "sleep 27 && exec python sensor_generator.py"]

@@ -1,0 +1,74 @@
+version: '3.7'
+
+services:
+  zookeeper:
+    image: bitnami/zookeeper:latest
+    container_name: zookeeper
+    environment:
+      - ALLOW_ANONYMOUS_LOGIN=yes
+    ports:
+      - "2181:2181"
+    networks:
+      - default
+
+  kafka:
+    image: bitnami/kafka:latest
+    container_name: kafka
+    ports:
+      - "9092:9092"
+    environment:
+      - KAFKA_CFG_ZOOKEEPER_CONNECT=zookeeper:2181
+      - KAFKA_ADVERTISED_LISTENER=PLAINTEXT://kafka:9092  
+      - KAFKA_CFG_LISTENER_SECURITY_PROTOCOL=PLAINTEXT
+      - ALLOW_PLAINTEXT_LISTENER=yes
+    networks:
+      - default
+    depends_on:
+      - zookeeper
+
+  sensor-generator:
+    build:
+      dockerfile: Dockerfile_sensor_generator
+    container_name: sensor-generator
+    depends_on:
+      - kafka
+    networks:
+      - default
+
+  machine_learning:
+    build:
+      dockerfile: Dockerfile_prediction
+    container_name: ml_prediction
+    depends_on:
+      - kafka
+    networks:
+      - default
+  
+  classifier:
+    build:
+      dockerfile: Dockerfile_classifier
+    container_name: classifier
+    depends_on:
+      - kafka
+    networks:
+      - default
+  graph:
+    build:
+      dockerfile: Dockerfile_graph_route
+    container_name: graph_route
+    depends_on:
+      - kafka
+    networks:
+      - default
+  visualization:
+    build:
+      dockerfile: Dockerfile_visual
+    container_name: visualization
+    depends_on:
+      - kafka
+    networks:
+      - default
+  
+networks:
+  project_default:
+    driver: bridge

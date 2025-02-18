@@ -1,0 +1,7 @@
+FROM python:3.9
+WORKDIR /app
+COPY graph_route.py .
+COPY newgraph.json .
+COPY requirements_graph.txt .
+RUN pip install -r requirements_graph.txt
+CMD ["sh", "-c", "sleep 70 && exec python graph_route.py"]
