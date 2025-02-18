@@ -2,4 +2,4 @@ FROM python:3.9
 WORKDIR /app
 COPY classifier.py .
 RUN pip install confluent-kafka
-CMD ["sh", "-c", "sleep 65 && exec python classifier.py"]
+CMD ["sh", "-c", "sleep 70 && exec python classifier.py"]

@@ -4,4 +4,4 @@ COPY graph_route.py .
 COPY newgraph.json .
 COPY requirements_graph.txt .
 RUN pip install -r requirements_graph.txt
-CMD ["sh", "-c", "sleep 70 && exec python graph_route.py"]
+CMD ["sh", "-c", "sleep 75 && exec python graph_route.py"]

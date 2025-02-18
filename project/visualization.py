@@ -3,7 +3,9 @@ import json
 import networkx as nx
 import matplotlib.pyplot as plt
 
-KAFKA_BROKER = "kafka:9092"
+
+KAFKA_TOPIC = "graph"
+KAFKA_BOOTSTRAP_SERVERS = "kafka:9092"
 import socket
 try:
     socket.create_connection(('kafka', 9092), timeout=10)
@@ -28,19 +30,37 @@ def visualize_graph(new_graph, routes):
             nx.draw_networkx_edges(G, pos, edgelist=edges, edge_color="red", width=2)
 
     plt.title("Optimal Routes Visualization")
-    plt.show()
+    output_path = "/app/graph_visualization.png" 
+    plt.savefig(output_path)
+    print(f"Graph saved to {output_path}")
 
+    plt.close()
 
-def consume_from_kafka():
+def consume_graph():
     consumer = KafkaConsumer(
-        "graph",
-        bootstrap_servers=KAFKA_BROKER,
+        KAFKA_TOPIC,
+        bootstrap_servers=KAFKA_BOOTSTRAP_SERVERS,
+        auto_offset_reset="latest",
+        enable_auto_commit=True,
+        group_id="graph-visualization",
         value_deserializer=lambda x: json.loads(x.decode("utf-8")),
     )
-
+    print("Listening for messages on Kafka topic:", KAFKA_TOPIC)
     for message in consumer:
-        data = message.value
-        new_graph = data["new_graph"]
-        routes = data["links"]
-        visualize_graph(new_graph, routes)
+        data = message.value  # Extract the Kafka message payload
+        print(data)
+        # Ensure the structure is correct
+        new_graph = data.get("new_graph", {})  # Get the graph
+        routes = data.get("routes", {})  # Get the routes
 
+        nodes = new_graph.get("nodes", [])  # Extract nodes
+        links = new_graph.get("links", [])  # Extract links
+
+        # Debugging
+        print(f"Received {len(nodes)} nodes and {len(links)} links from Kafka.")
+
+        # Now visualize the graph
+        visualize_graph(new_graph, routes)
+    consumer.close()
+if __name__ == "__main__":
+    consume_graph()
